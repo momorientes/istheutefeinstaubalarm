@@ -5,10 +5,14 @@
         html,body,.main{ width:100%; height:100%; margin:0; }
         .main { display: flex; justify-content: center; align-items: center; }
         .mailfoo { position: fixed; bottom: 24px; left: 24px; }
+        .api { position: fixed; top: 24px; right: 24px; }
         h1 { font-size: 10rem; }
     </style>
 </head>
 <body>
+    <div class="api">
+        <a href="/api/alarm">API</a>
+    </div>
     <div class="main">
         {% if alarm %}
         <h1>JA</h1>
